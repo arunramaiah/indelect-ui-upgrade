@@ -1,0 +1,177 @@
+
+/* Navbar */
+
+.navbar-nav {
+  align-items: right;
+}
+
+.nav-link {
+  font-size: large;
+  font-weight: 400;
+  flex-direction: column;
+}
+
+.image-container {
+  display: flex;
+}
+.image-style {
+  opacity: 70%;
+  width: 30%;
+  height: 50%;
+  margin: 1vh;
+}
+
+.paragraph{
+  text-align: left;
+  font-size: larger;
+  margin: 2vh;
+}
+
+.text-container {
+  margin: 2rem;
+}
+.card-style{
+  max-width: 90%;
+  margin: 2rem;
+  font-size: large;
+}
+
+.card-body{
+  font-size: large;
+  font-style: italic;
+
+}
+
+.main-heading{
+  font-size: xx-large;
+  font-weight: 600; 
+}
+
+.sub-heading{
+  font-size: x-large;
+}
+
+.image-container{
+ background-image: url("imaging.jpg");
+ opacity: 0.5;
+}
+
+.review {
+  background: var(--clr-white);
+  padding: 1.5rem 2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--light-shadow);
+  transition: var(--transition);
+  text-align: center;
+}
+
+.contact-form {
+  width: 50%;
+  padding: 1rem;
+}
+
+.contact-form label {
+  font-size: larger;
+  font: bold;
+  margin-bottom: 0.5rem;
+}
+
+.contact-form input, textarea {
+  margin-left: 0.5rem;
+}
+
+.form-container {
+  width: 100%;
+  text-align: left;
+}
+
+
+.form-heading {
+  font-weight: 500;
+  font-size: x-large;
+  margin: 1rem;
+}
+
+.btn-primary {
+  margin-top: 1rem;
+}
+
+.address-title {
+  font-size: xx-large;
+  padding: 2rem;
+  margin-top: 1rem;
+}
+
+.address-heading {
+  font-weight: 500;
+  font-size: x-large;
+  margin: 1rem;
+}
+
+.address-text {
+  font-size: large;
+  padding: 0rem;
+  margin: 0.2rem;
+  margin-left: 2rem;
+}
+
+.google-maps {
+  margin: 1rem;
+  text-align: center;
+}
+
+.google-maps-heading {
+  font-weight: 500;
+  font-size: x-large;
+  text-align: left;
+}
+
+.social-media {
+  font-size: xx-large;
+  margin-left: 2rem;
+  text-align: right;
+}
+
+.social-media a {
+  padding: 0.5rem;
+}
+
+.table {
+  margin: 2rem;
+  width: 80%;
+}
+
+.card-container  {
+  display: block;
+}
+
+.space-around {
+  justify-content: space-around;
+}
+.space-between {  
+  justify-content: space-between;
+}
+
+.quote-container {
+  font-size: x-small;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-footer {
+  text-align: center;
+}
+
+.flex-wrapper {
+  display: flex;
+  min-height: 10vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.row {
+  margin: 1vh;
+}
