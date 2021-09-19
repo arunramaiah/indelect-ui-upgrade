@@ -1,6 +1,4 @@
 import React from "react";
-import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
-import data from "../data/feedback-data";
 import installations from "../data/installation-data";
 
 const Customers = () => {
@@ -26,29 +24,6 @@ const Customers = () => {
           })}
         </ul>
       </div>
-      {/* {data.map((item, index) => {
-        return (
-          <React.Fragment key={index}>
-          <div class="card-container">
-            <div class="container space-around">
-              <div class="card bg-light mb-2 card-style">
-                <div class="card-header">
-                  {item.name}, {item.position}, {item.company}, {item.location}
-                </div>
-                <div class="quote-container">
-                  <FaQuoteLeft />
-                </div>
-                <h5 class="card-body">{item.info}</h5>
-                <div class="quote-container">
-                  <FaQuoteRight />
-                </div>
-              </div>
-            </div>
-          </div>  
-          </React.Fragment>
-        );
-      })}
-      ; */}
     </React.Fragment>
   );
 };
