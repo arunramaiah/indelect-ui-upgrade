@@ -1,14 +1,9 @@
-
 /* Navbar */
 
-.navbar-nav {
-  align-items: right;
-}
 
 .nav-link {
   font-size: large;
   font-weight: 400;
-  flex-direction: column;
 }
 
 .image-container {
@@ -30,21 +25,12 @@
 .text-container {
   margin: 2rem;
 }
-.card-style{
-  max-width: 90%;
-  margin: 2rem;
-  font-size: large;
-}
 
-.card-body{
-  font-size: large;
-  font-style: italic;
-
-}
 
 .main-heading{
   font-size: xx-large;
-  font-weight: 600; 
+  font-weight: 600;
+  margin: 2vh;
 }
 
 .sub-heading{
@@ -161,8 +147,8 @@
   justify-content: space-around;
 }
 
-.card-footer {
-  text-align: center;
+.social-media-icons {
+  vertical-align: bottom;
 }
 
 .flex-wrapper {
@@ -174,4 +160,14 @@
 
 .row {
   margin: 1vh;
+}
+
+.customer-list {
+  margin: 2vh;
+  font-size: larger;
+}
+
+.hospital-icon {
+  font-size: xx-large;
+  padding: 1vh;
 }

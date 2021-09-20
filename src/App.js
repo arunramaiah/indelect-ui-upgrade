@@ -59,6 +59,9 @@ function App() {
                 </li>
               </ul>
             </div>
+            <div class="social-media-icons">
+            <SocialMedia />
+          </div>
           </nav>
           <Switch>
             <Route path="/products">
@@ -80,9 +83,7 @@ function App() {
               <Home />
             </Route>
           </Switch>
-          <div class="card-footer text-muted">
-            <SocialMedia />
-          </div>
+
         </div>
       </div>
     </Router>

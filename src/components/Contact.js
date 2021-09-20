@@ -29,9 +29,6 @@ const Contact = () => {
             <p class="address-text">Email:
               <a href="mailto:sales@indelect.com"> sales@indelect.com</a>
             </p>
-            <hr/>
-            <SocialMedia />
-            <hr/>
           </div>  
         </div>
         <div className="google-maps">
