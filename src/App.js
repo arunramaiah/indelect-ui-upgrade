@@ -6,7 +6,7 @@ import Home from "./components/Home";
 import Products from "./components/Products";
 import Services from "./components/Services";
 import Customers from "./components/Customers";
-import Contact from "./components/Contact";
+import Location from "./components/Location";
 import About from "./components/About";
 import SocialMedia from "./components/SocialMedia";
 
@@ -48,8 +48,8 @@ function App() {
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <Link class="nav-link" to="/contact">
-                    Contact
+                  <Link class="nav-link" to="/location">
+                    Location
                   </Link>
                 </li>
                 <li class="nav-item">
@@ -59,9 +59,6 @@ function App() {
                 </li>
               </ul>
             </div>
-            <div class="social-media-icons">
-            <SocialMedia />
-          </div>
           </nav>
           <Switch>
             <Route path="/products">
@@ -73,8 +70,8 @@ function App() {
             <Route path="/customers">
               <Customers />
             </Route>
-            <Route path="/contact">
-              <Contact />
+            <Route path="/location">
+              <Location />
             </Route>
             <Route path="/about">
               <About />
@@ -83,9 +80,39 @@ function App() {
               <Home />
             </Route>
           </Switch>
-
         </div>
       </div>
+
+      <footer class="text-center text-lg-start bg-light text-muted">
+        <section class="d-flex justify-content-right justify-content-lg-between p-2 border-bottom">
+          <div>
+          <span>Get connected with us on social networks:</span>
+            <SocialMedia />
+          </div>
+          <div> 
+          <div>
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p>
+                  <i class="fas fa-home me-3"></i>#15/53, 1st Floor, Thirunagar, Villivakkam, Chennai - 600 095
+                </p>
+                <p>
+                <a href="mailto:sales@indelect.com">
+                  <i class="fas fa-envelope me-3"></i>
+                  sales@indelect.com
+                </a>  
+                </p>
+                <p>
+                  <i class="fas fa-phone me-3"></i> Sales:  + 91 93802 43402
+                </p>
+                <p>
+                  <i class="fas fa-print me-3"></i> Service: + 91 93802 43402
+                </p>
+              </div>
+          </div>
+        </section>
+
+       
+      </footer>
     </Router>
   );
 }

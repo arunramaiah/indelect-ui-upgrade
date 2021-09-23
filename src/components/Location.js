@@ -1,9 +1,7 @@
 import { React } from "react";
-import Enquiry from "./Enquiry";
-import SocialMedia from "./SocialMedia";
 
 const iframe =
-  '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3885.978745087113!2d80.2014911148706!3d13.100533015580488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526576cd3c5eb9%3A0xe2ded01e55cf55fe!2sIndelect%20Technologies%20Pvt%20Limited!5e0!3m2!1sen!2sin!4v1631687052910!5m2!1sen!2sin" width="1400" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>';
+  '<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31090.149390425795!2d80.1590560786839!3d13.08215136012901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52666a322c7eed%3A0x15cbbff0d16a7972!2sIndelect%20Technologies.Pvt.Ltd!5e0!3m2!1sen!2sin!4v1632380457902!5m2!1sen!2sin" width="1200" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>';
 
 const Iframe = (props) => {
   return (
@@ -13,12 +11,12 @@ const Iframe = (props) => {
   );
 };
 
-const Contact = () => {
+const Location = () => {
   return (
     <div>
         <div className="flex-container">
-          <Enquiry />
-          <div class="address-container">
+          {/* <Enquiry /> */}
+          {/* <div class="address-container">
             <div class="address-heading">Address</div>
             <p class="address-title">Indelect Technologies Pvt Limited</p>
             <p class="address-text">Address: 
@@ -29,7 +27,7 @@ const Contact = () => {
             <p class="address-text">Email:
               <a href="mailto:sales@indelect.com"> sales@indelect.com</a>
             </p>
-          </div>  
+          </div>   */}
         </div>
         <div className="google-maps">
             <div className="google-maps-heading">Our Location</div>
@@ -39,4 +37,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default Location;

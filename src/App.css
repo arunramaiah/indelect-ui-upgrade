@@ -1,5 +1,8 @@
 /* Navbar */
 
+.App {
+  margin: 1vh;
+}
 
 .nav-link {
   font-size: large;
@@ -30,11 +33,16 @@
 .main-heading{
   font-size: xx-large;
   font-weight: 600;
-  margin: 2vh;
+  margin: 1vh;
 }
 
 .sub-heading{
+  margin: 1vh;
   font-size: x-large;
+}
+
+.list-unstyled {
+  margin-left: 5vh;
 }
 
 .image-container{
