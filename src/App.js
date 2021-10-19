@@ -6,7 +6,7 @@ import Home from "./components/Home";
 import Products from "./components/Products";
 import Services from "./components/Services";
 import Customers from "./components/Customers";
-import Contact from "./components/Contact";
+import Location from "./components/Location";
 import About from "./components/About";
 import SocialMedia from "./components/SocialMedia";
 
@@ -19,7 +19,7 @@ function App() {
             <div class="navbar-header">
               <img
                 class="navbar-logo"
-                src="../../assets/logo-ind.svg"
+                src="../../assets/indelect logo legacy.png"
                 height="100px"
                 alt="navbar-logo"
               ></img>
@@ -48,8 +48,8 @@ function App() {
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <Link class="nav-link" to="/contact">
-                    Contact
+                  <Link class="nav-link" to="/location">
+                    Location
                   </Link>
                 </li>
                 <li class="nav-item">
@@ -59,7 +59,8 @@ function App() {
                 </li>
               </ul>
             </div>
-            <div class="social-media-icons">
+            <div>
+            <span>Get connected with us on social networks:</span>
             <SocialMedia />
           </div>
           </nav>
@@ -73,8 +74,8 @@ function App() {
             <Route path="/customers">
               <Customers />
             </Route>
-            <Route path="/contact">
-              <Contact />
+            <Route path="/location">
+              <Location />
             </Route>
             <Route path="/about">
               <About />
@@ -83,9 +84,8 @@ function App() {
               <Home />
             </Route>
           </Switch>
-
         </div>
-      </div>
+        </div>
     </Router>
   );
 }

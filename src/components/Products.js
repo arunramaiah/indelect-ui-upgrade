@@ -1,102 +1,28 @@
+import React from "react";
+import images from "../data/image-gallery-data";
+
 const Products = () => {
   return (
-  <div
-  id="carouselBasicExample"
-  class="carousel slide carousel-fade"
-  data-mdb-ride="carousel"
->
-
-  <div class="carousel-indicators">
-    <button
-      type="button"
-      data-mdb-target="#carouselBasicExample"
-      data-mdb-slide-to="0"
-      class="active"
-      aria-current="true"
-      aria-label="Slide 1"
-    ></button>
-    <button
-      type="button"
-      data-mdb-target="#carouselBasicExample"
-      data-mdb-slide-to="1"
-      aria-label="Slide 2"
-    ></button>
-    <button
-      type="button"
-      data-mdb-target="#carouselBasicExample"
-      data-mdb-slide-to="2"
-      aria-label="Slide 3"
-    ></button>
-  </div>
-
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img
-        src="https://mdbootstrap.com/img/Photos/Slides/img%20(15).jpg"
-        class="d-block w-100"
-        alt="..."
-      />
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>
-          Nulla vitae elit libero, a pharetra augue mollis interdum.
-        </p>
-      </div>
+    <div class="row">
+      <React.Fragment>
+        {images.map((item, index) => {
+          return (
+            <React.Fragment key={index}>
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                <figure>
+                  <img
+                    src={images[index].location}
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt=""
+                  />
+                  <figcaption class="caption-text">{images[index].title} </figcaption>
+                </figure>
+              </div>
+            </React.Fragment>
+          );
+        })}
+      </React.Fragment>
     </div>
-
-
-    <div class="carousel-item">
-      <img
-        src="https://mdbootstrap.com/img/Photos/Slides/img%20(22).jpg"
-        class="d-block w-100"
-        alt="..."
-      />
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        </p>
-      </div>
-    </div>
-
-
-    <div class="carousel-item">
-      <img
-        src="https://mdbootstrap.com/img/Photos/Slides/img%20(23).jpg"
-        class="d-block w-100"
-        alt="..."
-      />
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>
-          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-        </p>
-      </div>
-    </div>
-  </div>
-
-
- 
-  <button
-    class="carousel-control-prev"
-    type="button"
-    data-mdb-target="#carouselBasicExample"
-    data-mdb-slide="prev"
-  >
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button
-    class="carousel-control-next"
-    type="button"
-    data-mdb-target="#carouselBasicExample"
-    data-mdb-slide="next"
-  >
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-
   );
 };
 

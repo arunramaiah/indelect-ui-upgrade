@@ -49,7 +49,7 @@ const installations = [
     },
     { 
         id: 12,
-        location:'Soorya Multispechiality Hospital, Thiruchengode, Tamil Nadu'
+        location:'Soorya Multispeciality Hospital, Thiruchengode, Tamil Nadu'
     },
     { 
         id: 13,

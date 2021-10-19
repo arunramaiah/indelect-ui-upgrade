@@ -1,9 +1,20 @@
 /* Navbar */
 
+.App {
+  margin: 1vh;
+}
 
 .nav-link {
   font-size: large;
   font-weight: 400;
+}
+
+.navbar-collapse {
+  justify-content: center;
+}
+
+.navbar-logo {
+  opacity: 50%;
 }
 
 .image-container {
@@ -11,7 +22,7 @@
 }
 .image-style {
   opacity: 70%;
-  width: 30%;
+  width: 50%;
   height: 50%;
   margin: 1vh;
 }
@@ -30,11 +41,23 @@
 .main-heading{
   font-size: xx-large;
   font-weight: 600;
-  margin: 2vh;
+  margin: 1vh;
 }
 
 .sub-heading{
+  margin: 1vh;
   font-size: x-large;
+}
+
+.list-unstyled {
+  margin: 2vh;
+  font-size: larger;
+}
+
+.multi-column {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
 }
 
 .image-container{
@@ -102,11 +125,12 @@
 }
 
 .google-maps {
-  margin: 1rem;
   text-align: center;
 }
 
 .google-maps-heading {
+  margin: 1rem;
+  margin-left: 0;
   font-weight: 500;
   font-size: x-large;
   text-align: left;
@@ -124,7 +148,7 @@
 
 .table {
   margin: 2rem;
-  width: 80%;
+  width: 90%;
 }
 
 .card-container  {
@@ -170,4 +194,21 @@
 .hospital-icon {
   font-size: xx-large;
   padding: 1vh;
+}
+
+.caption-text {
+  text-align: center;
+}
+
+.portfolio {
+  font-family: sans-serif;
+  font-size: x-large;
+  font-weight: 400;
+  display: flex;
+}
+
+.list-title {
+  font-family: sans-serif;
+  font-size: xx-large;
+  font-weight: 600;
 }

@@ -36,7 +36,6 @@ const About = () => {
               </tr>
             );
           })}
-          ;
         </tbody>
       </table>
     </div>
