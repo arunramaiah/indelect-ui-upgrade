@@ -19,7 +19,7 @@ function App() {
             <div class="navbar-header">
               <img
                 class="navbar-logo"
-                src="../../assets/logo-ind.svg"
+                src="../../assets/indelect logo legacy.png"
                 height="100px"
                 alt="navbar-logo"
               ></img>
@@ -59,6 +59,10 @@ function App() {
                 </li>
               </ul>
             </div>
+            <div>
+            <span>Get connected with us on social networks:</span>
+            <SocialMedia />
+          </div>
           </nav>
           <Switch>
             <Route path="/products">
@@ -81,38 +85,7 @@ function App() {
             </Route>
           </Switch>
         </div>
-      </div>
-
-      <footer class="text-center text-lg-start bg-light text-muted">
-        <section class="d-flex justify-content-right justify-content-lg-between p-2 border-bottom">
-          <div>
-          <span>Get connected with us on social networks:</span>
-            <SocialMedia />
-          </div>
-          <div> 
-          <div>
-                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
-                <p>
-                  <i class="fas fa-home me-3"></i>#15/53, 1st Floor, Thirunagar, Villivakkam, Chennai - 600 095
-                </p>
-                <p>
-                <a href="mailto:sales@indelect.com">
-                  <i class="fas fa-envelope me-3"></i>
-                  sales@indelect.com
-                </a>  
-                </p>
-                <p>
-                  <i class="fas fa-phone me-3"></i> Sales:  + 91 93802 43402
-                </p>
-                <p>
-                  <i class="fas fa-print me-3"></i> Service: + 91 93802 43402
-                </p>
-              </div>
-          </div>
-        </section>
-
-       
-      </footer>
+        </div>
     </Router>
   );
 }

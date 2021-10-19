@@ -9,12 +9,20 @@
   font-weight: 400;
 }
 
+.navbar-collapse {
+  justify-content: center;
+}
+
+.navbar-logo {
+  opacity: 50%;
+}
+
 .image-container {
   display: flex;
 }
 .image-style {
   opacity: 70%;
-  width: 30%;
+  width: 50%;
   height: 50%;
   margin: 1vh;
 }
@@ -42,7 +50,14 @@
 }
 
 .list-unstyled {
-  margin-left: 5vh;
+  margin: 2vh;
+  font-size: larger;
+}
+
+.multi-column {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
 }
 
 .image-container{
@@ -110,11 +125,12 @@
 }
 
 .google-maps {
-  margin: 1rem;
   text-align: center;
 }
 
 .google-maps-heading {
+  margin: 1rem;
+  margin-left: 0;
   font-weight: 500;
   font-size: x-large;
   text-align: left;
@@ -178,4 +194,21 @@
 .hospital-icon {
   font-size: xx-large;
   padding: 1vh;
+}
+
+.caption-text {
+  text-align: center;
+}
+
+.portfolio {
+  font-family: sans-serif;
+  font-size: x-large;
+  font-weight: 400;
+  display: flex;
+}
+
+.list-title {
+  font-family: sans-serif;
+  font-size: xx-large;
+  font-weight: 600;
 }

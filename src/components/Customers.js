@@ -13,7 +13,7 @@ const Customers = () => {
         pace, Indelect aspires to build long lasting ties by providing world
         class services and solutions
       </p>
-      <ul class="list-unstyled">
+      <ul class="list-unstyled multi-column">
         {installations.map((item, index) => {
           return (
             <React.Fragment key={index}>

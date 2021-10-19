@@ -14,25 +14,31 @@ const Iframe = (props) => {
 const Location = () => {
   return (
     <div>
-        <div className="flex-container">
-          {/* <Enquiry /> */}
-          {/* <div class="address-container">
-            <div class="address-heading">Address</div>
-            <p class="address-title">Indelect Technologies Pvt Limited</p>
-            <p class="address-text">Address: 
-              #15/53, 1st Floor, Thirunagar, Villivakkam, Chennai-600049.
-            </p>
-            <p class="address-text">Sales: +91 93802 43402 </p>
-            <p class="address-text">Service Support:+91 93825 43299 </p>
-            <p class="address-text">Email:
-              <a href="mailto:sales@indelect.com"> sales@indelect.com</a>
-            </p>
-          </div>   */}
-        </div>
+      <div className="flex-container">
         <div className="google-maps">
-            <div className="google-maps-heading">Our Location</div>
-            <Iframe iframe={iframe} />
+          <div className="google-maps-heading">Our Location</div>
+          <Iframe iframe={iframe} />
+        </div>
+        {/* <Enquiry /> */}
+        <div>
+          <div>
+            <h6 class="google-maps-heading">Contact</h6>
+            <p><i class="fas fa-home me-3"></i>#15/53, 1st Floor, Thirunagar, Villivakkam, Chennai - 600 095 </p>
+            <p>
+              <a href="mailto:salesindelect@gmail.com">
+                <i class="fas fa-envelope me-3"></i>
+                salesindelect@gmail.com
+              </a>
+            </p>
+            <p>
+              <i class="fas fa-phone me-3"></i> Sales: + 91 93802 43402
+            </p>
+            <p>
+              <i class="fas fa-phone me-3"></i> Service: + 91 93802 43402
+            </p>
           </div>
+        </div>
+      </div>
     </div>
   );
 };

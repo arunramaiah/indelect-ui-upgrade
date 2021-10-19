@@ -52,7 +52,22 @@ const about = [
     { 
         id: 10,
         year: "2010",
-        description: "	Signed up an exclusive dealership with Genoray, Korea to represent their Mobile surgical C-Arm all over India",
+        description: "Signed up an exclusive dealership with Genoray, Korea to represent their Mobile surgical C-Arm all over India",
+    },
+    { 
+        id: 11,
+        year: "2014",
+        description: "Purchased patent rights for manufacturing of Cape Town Stereotactic Pointing Device (Device) from Cape Town University, South Africa",
+    },
+    { 
+        id: 12,
+        year: "2018",
+        description: "Acquired AERB Authorisation for sales and services for Diagnostic Radiology Equipments.",
+    },
+    { 
+        id: 13,
+        year: "2021",
+        description: "Added PIXXGEN DR (Flat Panel Detector) panels for both human and veterinary categories to our product portfolio",
     }
 ];
 
