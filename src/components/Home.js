@@ -11,7 +11,6 @@ const Home = () => {
           Medical Imaging Technology and Power Electronics.
           <br></br>
           <br></br>
-          <br></br>
           Indelect, over these years has acclaimed a high reputation in the
           international markets apart from serving the domestic Indian market.
           With a sustainable and consistently growing progress, Indelect
