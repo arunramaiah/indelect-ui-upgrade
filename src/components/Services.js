@@ -26,6 +26,13 @@ const Services = () => {
         <li>&#10070; Support during surgery cases during warranty period</li>
         <li>&#10070; Support for cases on calls</li>
       </ul>
+      <p class="sub-heading">Quality Assurance Services</p>
+      <ul class="list-unstyled">
+        <li>&#10070; Quality Assurance and Performance Test</li>
+        <li>&#10070; Assistance to get AERB License and Registration</li>
+        <li>&#10070; Designing of room layout as per AERB guidelines</li>
+        <li>&#10070; Surveillance protection and guidance for procedures</li>
+      </ul>
     </React.Fragment>
   );
 };

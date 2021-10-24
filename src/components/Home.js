@@ -32,18 +32,16 @@ const Home = () => {
               <p class="list-title">Sales</p>
               <li>Radiology</li>
               <ul>
-                <li>Mobile X-Ray</li>
-                <li>Fixed X-Ray</li>
-                <li>Portable X-Ray</li>
-                <li>C-Arm</li>
-              </ul>
-              <li>Digital Radiograpy</li>
-              <ul>
+                <li>Shimadzu X-Ray Systems</li>
+                <li>Genuine X-Ray Systems</li>
+                <li>Pixxgen DR Systems</li>
+                <ul>
                 <li>Human</li>
                 <li>Veterinary</li>
               </ul>
+              </ul>             
               <li>Neuro Surgical Stereotactic Device</li>
-              <li>Surgical Equipments and Gelpads</li>
+              <li>Surgical Instruments and Gelpads</li>
             </ul>
           </div>
           <div class="tile-background">

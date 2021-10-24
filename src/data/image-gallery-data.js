@@ -18,12 +18,6 @@ const images = [
         category:"X-ray"
     },
     { 
-        id: 3,
-        location: "../../assets/indelect-images/digital-x-ray-machine-500x500.jpeg",
-        title: "Digital X-ray",
-        category: "X-Ray"
-    },
-    { 
         id: 4,
         location: "../../assets/indelect-images/high-frequency-mobile-x-ray-machine-500x500.jpeg",
         title: "High frequency mobile X-ray",
@@ -33,12 +27,6 @@ const images = [
         id: 5,
         location: "../../assets/indelect-images/portable-30-kw-x-ray-machines-500x500.jpeg",
         title: "Portable 30kw X-ray",
-        category: "X-Ray"
-    },
-    { 
-        id: 6,
-        location: "../../assets/indelect-images/portable-x-ray-machine-500x500.jpeg",
-        title: "Portable X-ray",
         category: "X-Ray"
     },
     { 
