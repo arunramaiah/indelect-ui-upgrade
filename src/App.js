@@ -3,11 +3,14 @@ import "./App.css";
 import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Home from "./components/Home";
-import Products from "./components/Products";
+//import Products from "./components/Products";
 import Services from "./components/Services";
 import Customers from "./components/Customers";
 import Location from "./components/Location";
 import About from "./components/About";
+import Shimadzu from "./components/Shimadzu";
+import Genuine from "./components/Genuine";
+import Pixxgen from "./components/Pixxgen";
 import SocialMedia from "./components/SocialMedia";
 
 function App() {
@@ -33,8 +36,18 @@ function App() {
                   </Link>
                 </li>
                 <li class="nav-item">
-                  <Link class="nav-link" to="/products">
-                    Products
+                  <Link class="nav-link" to="/shimadzu">
+                    Shimadzu
+                  </Link>
+                </li>
+                <li class="nav-item">
+                  <Link class="nav-link" to="/genuine">
+                    Genuine
+                  </Link>
+                </li>
+                <li class="nav-item">
+                  <Link class="nav-link" to="/pixxgen">
+                    Pixxgen
                   </Link>
                 </li>
                 <li class="nav-item">
@@ -65,8 +78,14 @@ function App() {
           </div>
           </nav>
           <Switch>
-            <Route path="/products">
-              <Products />
+            <Route path="/shimadzu">
+              <Shimadzu />
+            </Route>
+            <Route path="/genuine">
+              <Genuine />
+            </Route>
+            <Route path="/pixxgen">
+              <Pixxgen />
             </Route>
             <Route path="/services">
               <Services />
