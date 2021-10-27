@@ -4,6 +4,8 @@ const Home = () => {
   return (
     <React.Fragment>
       <div>
+        <br></br>
+        <br></br>
         <p class="paragraph">
           Indelect Technologies Pvt.Ltd. established in the year 1995 by the
           Technocrats having over 18 years of combined expertise in technology
@@ -19,59 +21,47 @@ const Home = () => {
           equipments. The organization has expanded vastly in its length and
           breadth and has its foot firmly grounded to diverse activities.
         </p>
-        <br></br>
-        <br></br>
+      </div>
+      <div class="flex-container portfolio">
+      <div class="column">
+         <ul class="stylized-list-ul">
+          <li class="stylized-list-li">
+            <img src="..\..\assets\sample-image.jpeg" />
+            <h3>Radiology</h3>
 
-        <div class="flex-container">
-          <div>
-            <ul>
-              <p class="list-title">Sales</p>
-              <li>Radiology</li>
-              <ul>
-                <li>Shimadzu X-Ray Systems</li>
-                <li>Genuine X-Ray Systems</li>
-                <li>Pixxgen DR Systems</li>
-                <ul>
-                <li>Human</li>
-                <li>Veterinary</li>
-              </ul>
-              </ul>             
-              <li>Neuro Surgical Stereotactic Device</li>
-              <li>Surgical Instruments and Gelpads</li>
-            </ul>
-          </div>
-          <div class="tile-background">
-            <ul>
-              <p class="list-title">Support</p>
-              <li> X-Ray Equipments</li>
-              <li> QA Services for Diagnostics Radiology Equipments</li>
-            </ul>
-          </div>
+            <h5>Shimadzu X-Ray Systems</h5>
+            <h5>Genuine X-Ray Systems</h5>
+            <h5>Pixxgen DR Systems</h5>
+          </li>
+      
+          <li class="stylized-list-li">
+            <img src="..\..\assets\sample-image.jpeg" />
+            <h3>Human</h3>
+            <h3>Veterinary</h3>
+          </li>
+          </ul>
         </div>
-
-        <div class="row">
-          <div class="column">
-            <a href="#">
-              <div class="container">
-                <img src="../../assets/sample-image.jpeg" class="image"/>
-                <div class="overlay">
-                  <div class="text">Example 1</div>
-                </div>
-              </div>
-            </a>
-          </div>
-          <div class="column">
-            <a href="#">
-              <div class="container">
-                <img src="../../assets/sample-image.jpeg" class="image"/>
-                <div class="overlay">
-                  <div class="text">Example 3</div>
-                </div>
-              </div>
-            </a>
-          </div>
+        <div class="column">
+        <ul class="stylized-list-ul">
+          <li class="stylized-list-li">
+            <img src="..\..\assets\sample-image.jpeg" />
+            <h3>Neuro Surgical Stereotactic Device</h3>
+          </li>
+          <li class="stylized-list-li">
+            <img src="..\..\assets\sample-image.jpeg" />
+            <h3>Surgical Instruments and Gelpads</h3>
+          </li>
+        </ul>
         </div>
       </div>
+      <footer class="page-footer">
+        <h4> Our Partners </h4>
+        <div class="footer-image">
+          <img src="..\..\assets\shimadzu-logo.png" />
+          <img src="..\..\assets\pixxgen-logo.png" />
+          <img src="..\..\assets\genuine-logo.png" />
+        </div>
+      </footer>
     </React.Fragment>
   );
 };

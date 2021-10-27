@@ -201,13 +201,12 @@
 }
 
 .portfolio {
-  background: rgb(2,0,36);
-  background: linear-gradient(167deg, rgba(2,0,36,1) 0%, rgba(9,70,121,1) 1%, rgba(0,212,255,1) 100%);
+  background-color: lightblue;
   font-family: sans-serif;
   font-size: x-large;
   font-weight: 400;
   line-height: 200%;
-  color: white;
+  color: black;
   display: flex;
 }
 
@@ -217,73 +216,53 @@
   font-weight: 600;
 }
 
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+* {margin: 0; padding: 0;}
+
+/* .stylized-list {
+  margin: 10px;
+} */
+
+.stylized-list-ul {
+  list-style-type: none;
+  width: 600px;
 }
 
-.column {
-  flex: 100%;
-  max-width: 100%;
+h3 {
+  font: bold 20px/1.5 Helvetica, Verdana, sans-serif;
 }
 
-.column img {
-  vertical-align: middle;
+li img {
+  float: left;
+  margin: 0 15px 0 0;
 }
 
-.container {
-  position: relative;
-  width: 100%;
+li p {
+  font: 200 12px/1.5 Georgia, Times New Roman, serif;
 }
 
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
+.stylized-list-li {
+  padding: 10px;
+  overflow: auto;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: 0.5s ease;
-  background-color: black;
+li:hover {
+  background: #eee;
+  cursor: pointer;
 }
 
-.container:hover .overlay {
-  opacity: 0.5;
+.uc-message {
+  margin: 20px;
 }
 
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
+.page-footer {
+  margin-top: 20px;
   text-align: center;
 }
-
-/* Tablet Styles */
-@media only screen and (min-width: 480px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
+.footer-image{
+  opacity: 60%;
+  justify-content: space-around;
 }
 
-
-/* Desktop Styles */
-@media only screen and (min-width: 1024px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
+.navbar-color {
+  background-color: lightblue;
 }

@@ -17,13 +17,14 @@ import Shimadzu from "./components/Shimadzu";
 import Genuine from "./components/Genuine";
 import Pixxgen from "./components/Pixxgen";
 import SocialMedia from "./components/SocialMedia";
+import Construction from "./components/Construction";
 
 function App() {
   return (
     <Router>
       <div className="App">
 
-        <Navbar bg="light" expand="lg">
+        <Navbar class="navbar-color" expand="lg">
         <div>
           <img
                   class="navbar-logo"
@@ -40,7 +41,9 @@ function App() {
                 <NavDropdown title="Products" id="basic-nav-dropdown">
                   <NavDropdown.Item href="/shimadzu">Shimadzu</NavDropdown.Item>
                   <NavDropdown.Item href="/genuine">Genuine</NavDropdown.Item>
-                  <NavDropdown.Item href="/shimadzu">Pixxgen</NavDropdown.Item>
+                  <NavDropdown.Item href="/pixxgen">Pixxgen</NavDropdown.Item>
+                  <NavDropdown.Item href="/ctsp">Neuro Surgical Stereotactic Device(CTSP)</NavDropdown.Item>
+                  <NavDropdown.Item href="/gelpads">Surgical Instruments and Gel Pads</NavDropdown.Item>
                 </NavDropdown>
                 <Nav.Link href="/services">Services</Nav.Link>
                 <Nav.Link href="/customers">Customers</Nav.Link>
@@ -59,6 +62,12 @@ function App() {
             </Route>
             <Route path="/pixxgen">
               <Pixxgen />
+            </Route>
+            <Route path="/ctsp">
+              <Construction />
+            </Route>
+            <Route path="/gelpads">
+              <Construction />
             </Route>
             <Route path="/services">
               <Services />
