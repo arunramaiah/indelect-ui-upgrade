@@ -21,6 +21,7 @@ const Home = () => {
         </p>
         <br></br>
         <br></br>
+
         <div class="flex-container">
           <div>
             <ul>
@@ -45,6 +46,29 @@ const Home = () => {
               <li> X-Ray Equipments</li>
               <li> QA Services for Diagnostics Radiology Equipments</li>
             </ul>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="column">
+            <a href="#">
+              <div class="container">
+                <img src="../../assets/sample-image.jpeg" class="image"/>
+                <div class="overlay">
+                  <div class="text">Example 1</div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="column">
+            <a href="#">
+              <div class="container">
+                <img src="../../assets/sample-image.jpeg" class="image"/>
+                <div class="overlay">
+                  <div class="text">Example 3</div>
+                </div>
+              </div>
+            </a>
           </div>
         </div>
       </div>
