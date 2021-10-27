@@ -1,7 +1,12 @@
 //import logo from './logo.svg';
 import "./App.css";
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import Home from "./components/Home";
 //import Products from "./components/Products";
 import Services from "./components/Services";
@@ -17,66 +22,34 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <div class="flex-wrapper">
-          <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="navbar-header">
-              <img
-                class="navbar-logo"
-                src="../../assets/indelect logo legacy.png"
-                height="100px"
-                alt="navbar-logo"
-              ></img>
-            </div>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <Link class="nav-link" to="/">
-                    Home
-                  </Link>
-                </li>
-                <li class="nav-item">
-                  <Link class="nav-link" to="/shimadzu">
-                    Shimadzu
-                  </Link>
-                </li>
-                <li class="nav-item">
-                  <Link class="nav-link" to="/genuine">
-                    Genuine
-                  </Link>
-                </li>
-                <li class="nav-item">
-                  <Link class="nav-link" to="/pixxgen">
-                    Pixxgen
-                  </Link>
-                </li>
-                <li class="nav-item">
-                  <Link class="nav-link" to="/services">
-                    Services
-                  </Link>
-                </li>
-                <li class="nav-item">
-                  <Link class="nav-link" to="/customers">
-                    Customers
-                  </Link>
-                </li>
-                <li class="nav-item">
-                  <Link class="nav-link" to="/location">
-                    Location
-                  </Link>
-                </li>
-                <li class="nav-item">
-                  <Link class="nav-link" to="/about">
-                    About
-                  </Link>
-                </li>
-              </ul>
-            </div>
-            <div>
-            <span>Get connected with us on social networks:</span>
-            <SocialMedia />
-          </div>
-          </nav>
+        <Navbar bg="light" expand="lg">
+        <div>
+          <img
+                  class="navbar-logo"
+                  src="../../assets/indelect logo legacy.png"
+                  height="100px"
+                  alt="navbar-logo"
+                  href="/home"
+          ></img>
+        </div>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              <Nav className="me-auto">
+              <Nav.Link href="/home">Home</Nav.Link>
+                <NavDropdown title="Products" id="basic-nav-dropdown">
+                  <NavDropdown.Item href="/shimadzu">Shimadzu</NavDropdown.Item>
+                  <NavDropdown.Item href="/genuine">Genuine</NavDropdown.Item>
+                  <NavDropdown.Item href="/shimadzu">Pixxgen</NavDropdown.Item>
+                </NavDropdown>
+                <Nav.Link href="/services">Services</Nav.Link>
+                <Nav.Link href="/customers">Customers</Nav.Link>
+                <Nav.Link href="/location">Location</Nav.Link>
+                <Nav.Link href="/about">About</Nav.Link>
+              </Nav>           
+            </Navbar.Collapse>
+            <SocialMedia/>
+          </Navbar>
           <Switch>
             <Route path="/shimadzu">
               <Shimadzu />
@@ -103,8 +76,8 @@ function App() {
               <Home />
             </Route>
           </Switch>
-        </div>
-        </div>
+         
+      </div>
     </Router>
   );
 }

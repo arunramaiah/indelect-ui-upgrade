@@ -21,13 +21,8 @@ const Home = () => {
         </p>
         <br></br>
         <br></br>
-        {/* <div class="flex-container">
-        <img class="image-style" src="../../assets/xray-ok.jpg" alt="landing-page"></img>
-        <img class="image-style" src="../../assets/ncer.jpg" alt="landing-page"></img>
-        <img class="image-style" src="../../assets/xray-ok.jpg" alt="landing-page"></img>
-      </div> */}
-        <div class="flex-container portfolio">
-          <div class="tile-background">
+        <div class="flex-container">
+          <div>
             <ul>
               <p class="list-title">Sales</p>
               <li>Radiology</li>
