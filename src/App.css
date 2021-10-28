@@ -201,13 +201,14 @@
 }
 
 .portfolio {
-  background-color: lightblue;
+  background: lightblue url("indelect-blur-back.png");
   font-family: sans-serif;
   font-size: x-large;
   font-weight: 400;
   line-height: 200%;
   color: black;
-  display: flex;
+  width: 100% vh;
+  height: 600px;
 }
 
 .list-title {
@@ -246,7 +247,8 @@ li p {
 }
 
 li:hover {
-  background: #eee;
+  background: lightblue;
+  opacity: 50%;
   cursor: pointer;
 }
 
@@ -259,10 +261,6 @@ li:hover {
   text-align: center;
 }
 .footer-image{
-  opacity: 60%;
-  justify-content: space-around;
-}
-
-.navbar-color {
-  background-color: lightblue;
+  display: flex;
+  justify-content: space-evenly;
 }

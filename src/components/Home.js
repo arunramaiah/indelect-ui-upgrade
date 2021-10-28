@@ -22,11 +22,11 @@ const Home = () => {
           breadth and has its foot firmly grounded to diverse activities.
         </p>
       </div>
-      <div class="flex-container portfolio">
+      <div class="portfolio">
       <div class="column">
          <ul class="stylized-list-ul">
           <li class="stylized-list-li">
-            <img src="..\..\assets\sample-image.jpeg" />
+
             <h3>Radiology</h3>
 
             <h5>Shimadzu X-Ray Systems</h5>
@@ -35,21 +35,27 @@ const Home = () => {
           </li>
       
           <li class="stylized-list-li">
-            <img src="..\..\assets\sample-image.jpeg" />
-            <h3>Human</h3>
-            <h3>Veterinary</h3>
+            <h3>Human</h3> </li>
+            
+          <li class="stylized-list-li">
+            <h3>Veterinary</h3> 
           </li>
           </ul>
+          <ul class="stylized-list-ul">
+          <li class="stylized-list-li">
+            <h3>Neuro Surgical Stereotactic Device</h3>
+          </li>
+          <li class="stylized-list-li">
+            <h3>Surgical Instruments and Gelpads</h3>
+          </li>
+        </ul>
         </div>
         <div class="column">
         <ul class="stylized-list-ul">
           <li class="stylized-list-li">
-            <img src="..\..\assets\sample-image.jpeg" />
-            <h3>Neuro Surgical Stereotactic Device</h3>
-          </li>
-          <li class="stylized-list-li">
-            <img src="..\..\assets\sample-image.jpeg" />
-            <h3>Surgical Instruments and Gelpads</h3>
+            <h3>Support</h3>
+            <h5>X-Ray Equipments</h5>
+            <h5>QA Services for Diagnostics Radiology Equipments</h5>
           </li>
         </ul>
         </div>
@@ -57,9 +63,9 @@ const Home = () => {
       <footer class="page-footer">
         <h4> Our Partners </h4>
         <div class="footer-image">
-          <img src="..\..\assets\shimadzu-logo.png" />
-          <img src="..\..\assets\pixxgen-logo.png" />
-          <img src="..\..\assets\genuine-logo.png" />
+          <img src="..\..\assets\shimadzu-logo.png" width="400" height="100" />
+          <img src="..\..\assets\pixxgen-logo.png" width="200" height="100" />
+          <img src="..\..\assets\genuine-logo.png" width="200" height="100"/>
         </div>
       </footer>
     </React.Fragment>
