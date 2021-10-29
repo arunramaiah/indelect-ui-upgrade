@@ -22,42 +22,80 @@ const Home = () => {
           breadth and has its foot firmly grounded to diverse activities.
         </p>
       </div>
+      <div
+        id="carouselExampleSlidesOnly"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              class="d-block w-100"
+              src="..\..\assets\imaging.jpg"
+              width="400"
+              height="400"
+              alt="First slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="..\..\assets\xray-ok.jpg"
+              width="400"
+              height="400"
+              alt="First slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              class="d-block w-100"
+              src="..\..\assets\xray-ok.jpg"
+              width="400"
+              height="400"
+              alt="First slide"
+            />
+          </div>
+        </div>
+      </div>
       <div class="portfolio">
-      <div class="column">
-         <ul class="stylized-list-ul">
-          <li class="stylized-list-li">
-
-            <h3>Radiology</h3>
-
-            <h5>Shimadzu X-Ray Systems</h5>
-            <h5>Genuine X-Ray Systems</h5>
-            <h5>Pixxgen DR Systems</h5>
-          </li>
-      
-          <li class="stylized-list-li">
-            <h3>Human</h3> </li>
-            
-          <li class="stylized-list-li">
-            <h3>Veterinary</h3> 
-          </li>
-          </ul>
+        <div class="column">
           <ul class="stylized-list-ul">
-          <li class="stylized-list-li">
-            <h3>Neuro Surgical Stereotactic Device</h3>
-          </li>
-          <li class="stylized-list-li">
-            <h3>Surgical Instruments and Gelpads</h3>
-          </li>
-        </ul>
+            <li class="stylized-list-li">
+              <h3>Radiology</h3>
+              <h5>Shimadzu X-Ray Systems</h5>
+              <h5>Genuine X-Ray Systems</h5>
+              <h5>Pixxgen DR Systems</h5>
+            </li>
+          </ul>
         </div>
         <div class="column">
-        <ul class="stylized-list-ul">
-          <li class="stylized-list-li">
-            <h3>Support</h3>
-            <h5>X-Ray Equipments</h5>
-            <h5>QA Services for Diagnostics Radiology Equipments</h5>
-          </li>
-        </ul>
+          <ul class="stylized-list-ul">
+            <li class="stylized-list-li">
+              <h3>Human</h3>
+            </li>
+            <li class="stylized-list-li">
+              <h3>Veterinary</h3>
+            </li>
+          </ul>
+        </div>
+        <div class="column">
+          <ul class="stylized-list-ul">
+            <li class="stylized-list-li">
+              <h3>Neuro Surgical Stereotactic Device</h3>
+            </li>
+            <li class="stylized-list-li">
+              <h3>Surgical Instruments and Gelpads</h3>
+            </li>
+          </ul>
+        </div>
+        <div class="column">
+          <ul class="stylized-list-ul">
+            <li class="stylized-list-li">
+              <h3>Support</h3>
+              <h5>X-Ray Equipments</h5>
+              <h5>QA Services for Diagnostics Radiology Equipments</h5>
+            </li>
+          </ul>
         </div>
       </div>
       <footer class="page-footer">
@@ -65,7 +103,7 @@ const Home = () => {
         <div class="footer-image">
           <img src="..\..\assets\shimadzu-logo.png" width="400" height="100" />
           <img src="..\..\assets\pixxgen-logo.png" width="200" height="100" />
-          <img src="..\..\assets\genuine-logo.png" width="200" height="100"/>
+          <img src="..\..\assets\genuine-logo.png" width="200" height="100" />
         </div>
       </footer>
     </React.Fragment>

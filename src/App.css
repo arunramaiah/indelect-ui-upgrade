@@ -15,6 +15,7 @@
 
 .navbar-logo {
   opacity: 50%;
+  padding: 15px;
 }
 
 .image-container {
@@ -201,9 +202,9 @@
 }
 
 .portfolio {
-  background: lightblue url("indelect-blur-back.png");
+  display: flex;
   font-family: sans-serif;
-  font-size: x-large;
+  font-size: xx-large;
   font-weight: 400;
   line-height: 200%;
   color: black;
@@ -247,7 +248,8 @@ li p {
 }
 
 li:hover {
-  background: lightblue;
+  background: rgb(2,0,36);
+  background: linear-gradient(167deg, rgba(2,0,36,1) 0%, rgba(9,70,121,1) 1%, rgba(0,212,255,1) 100%);
   opacity: 50%;
   cursor: pointer;
 }
