@@ -1,7 +1,7 @@
 /* Navbar */
 
 .App {
-  margin: 1vh;
+  margin: 0vh;
 }
 
 .nav-link {
@@ -11,6 +11,14 @@
 
 .navbar-collapse {
   justify-content: center;
+}
+
+.navbar {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  background: rgb(174,202,238);
+  background: linear-gradient(90deg, rgba(174,202,238,1) 0%, rgba(255,255,255,1) 100%);
 }
 
 .navbar-logo {
@@ -31,7 +39,8 @@
 .paragraph{
   text-align: left;
   font-size: larger;
-  margin: 2vh;
+  margin-left: 2vh;
+  margin-bottom: 0%;
 }
 
 .text-container {
@@ -203,13 +212,13 @@
 
 .portfolio {
   display: flex;
+  background: rgb(174,202,238);
+  background: linear-gradient(90deg, rgba(174,202,238,1) 0%, rgba(255,255,255,1) 100%);
   font-family: sans-serif;
   font-size: xx-large;
   font-weight: 400;
   line-height: 200%;
   color: black;
-  width: 100% vh;
-  height: 600px;
 }
 
 .list-title {
@@ -226,7 +235,7 @@
 
 .stylized-list-ul {
   list-style-type: none;
-  width: 600px;
+  width: 30vh;
 }
 
 h3 {
@@ -248,8 +257,7 @@ li p {
 }
 
 li:hover {
-  background: rgb(2,0,36);
-  background: linear-gradient(167deg, rgba(2,0,36,1) 0%, rgba(9,70,121,1) 1%, rgba(0,212,255,1) 100%);
+  background: grey;
   opacity: 50%;
   cursor: pointer;
 }
@@ -259,10 +267,16 @@ li:hover {
 }
 
 .page-footer {
-  margin-top: 20px;
+  background: rgb(174,202,238);
+background: linear-gradient(90deg, rgba(174,202,238,1) 0%, rgba(255,255,255,1) 100%);
   text-align: center;
 }
 .footer-image{
   display: flex;
   justify-content: space-evenly;
+}
+
+.welcome-text {
+  background: rgb(174,202,238);
+background: linear-gradient(90deg, rgba(174,202,238,1) 0%, rgba(255,255,255,1) 100%);
 }

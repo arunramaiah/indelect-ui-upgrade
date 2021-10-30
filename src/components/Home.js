@@ -1,12 +1,16 @@
 import React from "react";
+import SocialMedia from "./SocialMedia";
 
 const Home = () => {
   return (
     <React.Fragment>
       <div>
-        <br></br>
-        <br></br>
+   
+        <div class="welcome-text">
         <p class="paragraph">
+          <br></br>
+          <hr></hr>
+          <br></br>
           Indelect Technologies Pvt.Ltd. established in the year 1995 by the
           Technocrats having over 18 years of combined expertise in technology
           and mentoring experience in advanced areas of Biomedical Engineering,
@@ -21,6 +25,9 @@ const Home = () => {
           equipments. The organization has expanded vastly in its length and
           breadth and has its foot firmly grounded to diverse activities.
         </p>
+        <br></br>
+          <br></br>
+        </div>
       </div>
       <div
         id="carouselExampleSlidesOnly"
@@ -31,28 +38,26 @@ const Home = () => {
           <div class="carousel-item active">
             <img
               class="d-block w-100"
-              src="..\..\assets\imaging.jpg"
-              width="400"
-              height="400"
-              alt="First slide"
+              src="..\..\assets\home\pixxgen-home.png"
+              data-slide-to="0"
+              alt="Pixxgen Products"
+              class="active"
             />
           </div>
           <div class="carousel-item">
             <img
               class="d-block w-100"
-              src="..\..\assets\xray-ok.jpg"
-              width="400"
-              height="400"
-              alt="First slide"
+              src="..\..\assets\home\shimadzu-home.png"
+              data-slide-to="1"
+              alt="Shimadzu Products"
             />
           </div>
           <div class="carousel-item">
             <img
               class="d-block w-100"
-              src="..\..\assets\xray-ok.jpg"
-              width="400"
-              height="400"
-              alt="First slide"
+              src="..\..\assets\home\gel-pads-home.png"
+              data-slide-to="2"
+              alt="Gel Pads"
             />
           </div>
         </div>
@@ -99,12 +104,7 @@ const Home = () => {
         </div>
       </div>
       <footer class="page-footer">
-        <h4> Our Partners </h4>
-        <div class="footer-image">
-          <img src="..\..\assets\shimadzu-logo.png" width="400" height="100" />
-          <img src="..\..\assets\pixxgen-logo.png" width="200" height="100" />
-          <img src="..\..\assets\genuine-logo.png" width="200" height="100" />
-        </div>
+      <SocialMedia/>
       </footer>
     </React.Fragment>
   );

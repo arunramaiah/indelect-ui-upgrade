@@ -51,7 +51,6 @@ function App() {
                 <Nav.Link href="/about">About</Nav.Link>
               </Nav>           
             </Navbar.Collapse>
-            <SocialMedia/>
           </Navbar>
           <Switch>
             <Route path="/shimadzu">
