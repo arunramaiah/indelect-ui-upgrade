@@ -3,6 +3,7 @@ import images from "../data/image-gallery-data";
 
 const Products = () => {
   return (
+    <div class="bg-color">
     <div class="row">
       <React.Fragment>
         {images.map((item, index) => {
@@ -22,6 +23,7 @@ const Products = () => {
           );
         })}
       </React.Fragment>
+      </div>
     </div>
   );
 };

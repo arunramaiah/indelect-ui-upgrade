@@ -4,7 +4,7 @@ import data from "../data/about-data.js";
 const About = () => {
   console.log(data);
   return (
-    <div>
+    <div class="bg-color">
       <p class="main-heading">About Us</p>
       <p class="paragraph">
         Indelect Technologies Pvt.Ltd. established in the year 1995 by the

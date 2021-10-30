@@ -5,11 +5,10 @@ const Home = () => {
   return (
     <React.Fragment>
       <div>
-   
         <div class="welcome-text">
         <p class="paragraph">
           <br></br>
-          <hr></hr>
+        
           <br></br>
           Indelect Technologies Pvt.Ltd. established in the year 1995 by the
           Technocrats having over 18 years of combined expertise in technology
@@ -103,9 +102,7 @@ const Home = () => {
           </ul>
         </div>
       </div>
-      <footer class="page-footer">
-      <SocialMedia/>
-      </footer>
+
     </React.Fragment>
   );
 };

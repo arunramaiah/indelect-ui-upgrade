@@ -16,10 +16,10 @@ const SocialMedia = () => {
           <FaLinkedin />
         </a>
         <a href="https://www.jdmart.com/GOJ-ENZ1631687855?skip" target="_blank" rel="noreferrer">
-          <img src="../../assets/justDial.svg" height="100px" width="100px" alt="Just Dial Logo"/>
+          <img src="../../assets/logos/justDial.svg" height="100px" width="100px" alt="Just Dial Logo"/>
         </a>
         <a href="https://www.indiamart.com/indelecttechonologies/" target="_blank" rel="noreferrer">
-          <img src="../../assets/indiamart.png" height="50px" width="100px" alt="India Mart Logo"/>
+          <img src="../../assets/logos/indiamart.png" height="50px" width="100px" alt="India Mart Logo"/>
         </a>
       </div>
     )

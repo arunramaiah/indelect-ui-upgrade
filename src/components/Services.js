@@ -3,6 +3,7 @@ import React from "react";
 const Services = () => {
   return (
     <React.Fragment>
+      <div class="bg-color">
       <p class="main-heading">Services</p>
       <p class="sub-heading">Customer Support</p>
       <ul class="list-unstyled">
@@ -33,6 +34,7 @@ const Services = () => {
         <li>&#10070; Designing of room layout as per AERB guidelines</li>
         <li>&#10070; Surveillance protection and guidance for procedures</li>
       </ul>
+      </div>
     </React.Fragment>
   );
 };

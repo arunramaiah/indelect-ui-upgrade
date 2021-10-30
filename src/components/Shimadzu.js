@@ -16,7 +16,7 @@ const Shimadzu = () => {
                     class="w-100 shadow-1-strong rounded mb-4"
                     alt=""
                   />
-                  <figcaption class="caption-text">{images[index].title} </figcaption>
+                  <figcaption class="caption-text">{processedImages[index].title} </figcaption>
                 </figure>
               </div>
             </React.Fragment>

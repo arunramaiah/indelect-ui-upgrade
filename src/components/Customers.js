@@ -5,6 +5,7 @@ import { FaHospitalSymbol } from "react-icons/fa";
 const Customers = () => {
   return (
     <React.Fragment>
+    <div class="bg-color">
       <p class="main-heading">Our Customers</p>
       <p class="paragraph">
         Within a short span of time, Indelect as an organization has had the
@@ -29,6 +30,7 @@ const Customers = () => {
           );
         })}
       </ul>
+      </div>
     </React.Fragment>
   );
 };

@@ -13,7 +13,7 @@ const Iframe = (props) => {
 
 const Location = () => {
   return (
-    <div>
+    <div class="bg-color">
       <div className="flex-container">
         <div className="google-maps">
           <div className="google-maps-heading">Our Location</div>

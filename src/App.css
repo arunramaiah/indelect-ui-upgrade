@@ -1,11 +1,9 @@
 /* Navbar */
 
-.App {
-  margin: 0vh;
-}
-
 .nav-link {
-  font-size: large;
+  font-family: sans-serif;
+  font-size: x-large;
+  font-variant: small-caps;
   font-weight: 400;
 }
 
@@ -14,16 +12,11 @@
 }
 
 .navbar {
-  padding: 0;
-  border: 0;
-  margin: 0;
-  background: rgb(174,202,238);
-  background: linear-gradient(90deg, rgba(174,202,238,1) 0%, rgba(255,255,255,1) 100%);
+  padding: 1vh;
 }
 
 .navbar-logo {
-  opacity: 50%;
-  padding: 15px;
+  opacity: 100%;
 }
 
 .image-container {
@@ -39,6 +32,7 @@
 .paragraph{
   text-align: left;
   font-size: larger;
+  font-weight: 500;
   margin-left: 2vh;
   margin-bottom: 0%;
 }
@@ -149,7 +143,7 @@
 .social-media {
   font-size: xx-large;
   margin-left: 2rem;
-  text-align: right;
+  text-align: left;
 }
 
 .social-media a {
@@ -280,4 +274,21 @@ background: linear-gradient(90deg, rgba(174,202,238,1) 0%, rgba(255,255,255,1) 1
 .welcome-text {
   background: rgb(174,202,238);
 background: linear-gradient(90deg, rgba(174,202,238,1) 0%, rgba(255,255,255,1) 100%);
+}
+
+hr  {
+  margin: 0;
+  border: 0;
+  height:5px;
+  background: #333; /* Chrome,Safari4+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#34495e), color-stop(10%,#34495e), color-stop(10%,#207cca), color-stop(24%,#2989d8), color-stop(24%,#34495e), color-stop(42%,#34495e), color-stop(42%,#207cca), color-stop(70%,#207cca), color-stop(70%,#207cca), color-stop(70%,#34495e), color-stop(100%,#34495e)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(left,  #34495e 0%,#34495e 10%,#207cca 10%,#2989d8 24%,#34495e 24%,#34495e 42%,#207cca 42%,#207cca 70%,#207cca 70%,#34495e 70%,#34495e 100%); /* Chrome10+,Safari5.1+ */
+  background-image: -moz-linear-gradient(left, #34495e 0%, #34495e 9%, #207cca 10%, #2989d8 24%, #34495e 24%, #34495e 42%, #207cca 42%, #207cca 70%, #207cca 70%, #34495e 71%, #34495e 100%);
+  background-image: -o-linear-gradient(left, #34495e 0%, #34495e 9%, #207cca 10%, #2989d8 24%, #34495e 24%, #34495e 42%, #207cca 42%, #207cca 70%, #207cca 70%, #34495e 71%, #34495e 100%);
+  background-image: linear-gradient(left, #34495e 0%, #34495e 9%, #207cca 10%, #2989d8 24%, #34495e 24%, #34495e 42%, #207cca 42%, #207cca 70%, #207cca 70%, #34495e 71%, #34495e 100%); /* Chrome10+,Safari5.1+ */   
+}
+
+.bg-color {
+  background: rgb(174,202,238);
+  background: linear-gradient(90deg, rgba(174,202,238,1) 0%, rgba(255,255,255,1) 100%);
 }

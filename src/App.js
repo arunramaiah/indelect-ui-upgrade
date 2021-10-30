@@ -18,6 +18,7 @@ import Genuine from "./components/Genuine";
 import Pixxgen from "./components/Pixxgen";
 import SocialMedia from "./components/SocialMedia";
 import Construction from "./components/Construction";
+import Gelpad from "./components/Gelpad";
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
         <div>
           <img
                   class="navbar-logo"
-                  src="../../assets/indelect logo legacy.png"
+                  src="../../assets/logos/indelect-logo-nb-ds.png"
                   height="100px"
                   alt="navbar-logo"
                   href="/home"
@@ -52,6 +53,7 @@ function App() {
               </Nav>           
             </Navbar.Collapse>
           </Navbar>
+          <hr/>
           <Switch>
             <Route path="/shimadzu">
               <Shimadzu />
@@ -66,7 +68,7 @@ function App() {
               <Construction />
             </Route>
             <Route path="/gelpads">
-              <Construction />
+              <Gelpad />
             </Route>
             <Route path="/services">
               <Services />
@@ -84,7 +86,10 @@ function App() {
               <Home />
             </Route>
           </Switch>
-         
+          <hr/>
+      <footer class="page-footer">
+      <SocialMedia/>
+      </footer>
       </div>
     </Router>
   );
