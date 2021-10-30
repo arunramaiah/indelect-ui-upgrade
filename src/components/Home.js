@@ -8,8 +8,6 @@ const Home = () => {
         <div class="welcome-text">
         <p class="paragraph">
           <br></br>
-        
-          <br></br>
           Indelect Technologies Pvt.Ltd. established in the year 1995 by the
           Technocrats having over 18 years of combined expertise in technology
           and mentoring experience in advanced areas of Biomedical Engineering,
