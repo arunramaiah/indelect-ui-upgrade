@@ -1,5 +1,4 @@
 import React from "react";
-import SocialMedia from "./SocialMedia";
 
 const Home = () => {
   return (
@@ -34,11 +33,10 @@ const Home = () => {
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              class="d-block w-100"
+              class="d-block w-100 active"
               src="..\..\assets\home\pixxgen-home.png"
               data-slide-to="0"
               alt="Pixxgen Products"
-              class="active"
             />
           </div>
           <div class="carousel-item">
@@ -62,41 +60,28 @@ const Home = () => {
       <div class="portfolio">
         <div class="column">
           <ul class="stylized-list-ul">
-            <li class="stylized-list-li">
-              <h3>Radiology</h3>
-              <h5>Shimadzu X-Ray Systems</h5>
-              <h5>Genuine X-Ray Systems</h5>
-              <h5>Pixxgen DR Systems</h5>
-            </li>
+            &#9864; Radiology
+            <li class="stylized-list-li">&#10003; Shimadzu X-Ray Systems</li>
+            <li class="stylized-list-li">&#10003; Genuine X-Ray Systems</li>
+            <li class="stylized-list-li">&#10003; Pixxgen DR Systems</li>
           </ul>
         </div>
         <div class="column">
-          <ul class="stylized-list-ul">
-            <li class="stylized-list-li">
-              <h3>Human</h3>
-            </li>
-            <li class="stylized-list-li">
-              <h3>Veterinary</h3>
-            </li>
-          </ul>
+          <ul class="stylized-list-ul">&#9864; Human</ul>
+          <ul class="stylized-list-ul">&#9864; Veterinary</ul>
         </div>
         <div class="column">
           <ul class="stylized-list-ul">
-            <li class="stylized-list-li">
-              <h3>Neuro Surgical Stereotactic Device</h3>
-            </li>
-            <li class="stylized-list-li">
-              <h3>Surgical Instruments and Gelpads</h3>
-            </li>
+          &#9864; Neuro Surgical Stereotactic Device
+          </ul>
+          <ul class="stylized-list-ul">
+          &#9864; Surgical Instruments and Gelpads
           </ul>
         </div>
         <div class="column">
-          <ul class="stylized-list-ul">
-            <li class="stylized-list-li">
-              <h3>Support</h3>
-              <h5>X-Ray Equipments</h5>
-              <h5>QA Services for Diagnostics Radiology Equipments</h5>
-            </li>
+          <ul class="stylized-list-ul"> &#9864; Support
+            <li class="stylized-list-li">&#10003; X-Ray Equipments </li>
+            <li class="stylized-list-li">&#10003; QA Services for Diagnostics Radiology Equipments </li>
           </ul>
         </div>
       </div>

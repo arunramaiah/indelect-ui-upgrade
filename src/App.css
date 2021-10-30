@@ -37,10 +37,6 @@ html, body {
   padding: 1vh;
 }
 
-.navbar-logo {
-  opacity: 100%;
-}
-
 .image-container {
   display: flex;
 }
@@ -87,7 +83,6 @@ html, body {
 }
 
 .image-container{
- background-image: url("imaging.jpg");
  opacity: 0.5;
 }
 
@@ -234,7 +229,7 @@ html, body {
   font-family: sans-serif;
   font-size: xx-large;
   font-weight: 400;
-  line-height: 200%;
+  line-height: 150%;
   color: black;
   justify-content: space-evenly;
 }
@@ -252,8 +247,12 @@ html, body {
 } */
 
 .stylized-list-ul {
-  list-style-type: none;
-  width: 30vh;
+ list-style-type: none;
+ width: 40vh;
+ font-size: x-large;
+ font-family: sans-serif;
+ font-weight: 600;
+ padding-top: 5px;
 }
 
 h3 {
@@ -270,14 +269,7 @@ li p {
 }
 
 .stylized-list-li {
-  padding: 10px;
-  overflow: auto;
-}
-
-li:hover {
-  background: grey;
-  opacity: 50%;
-  cursor: pointer;
+  padding-left: 15px;
 }
 
 .uc-message {

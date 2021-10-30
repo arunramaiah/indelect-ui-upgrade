@@ -29,7 +29,7 @@ function App() {
         <div>
           <img
                   class="navbar-logo"
-                  src="../../assets/logos/indelect-logo-nb-ds.png"
+                  src="../../assets/logos/indelect logo legacy.png"
                   height="100px"
                   alt="navbar-logo"
                   href="/home"
