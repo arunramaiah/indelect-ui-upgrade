@@ -219,6 +219,7 @@
   font-weight: 400;
   line-height: 200%;
   color: black;
+  justify-content: space-evenly;
 }
 
 .list-title {
