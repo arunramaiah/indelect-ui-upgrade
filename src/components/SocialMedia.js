@@ -16,7 +16,7 @@ const SocialMedia = () => {
           <FaLinkedin />
         </a>
         <a href="https://www.jdmart.com/GOJ-ENZ1631687855?skip" target="_blank" rel="noreferrer">
-          <img src="../../assets/logos/justdial.svg" height="60px" width="60px" alt="Just Dial Logo"/>
+          <img src="../../assets/logos/justdial.png" height="40px" width="100px" alt="Just Dial Logo"/>
         </a>
         <a href="https://www.indiamart.com/indelecttechonologies/" target="_blank" rel="noreferrer">
           <img src="../../assets/logos/indiamart.svg" height="60px" width="60px" alt="India Mart Logo"/>
