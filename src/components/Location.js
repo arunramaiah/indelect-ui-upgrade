@@ -34,7 +34,7 @@ const Location = () => {
               <i class="fas fa-phone me-3"></i> Sales: + 91 93802 43402
             </p>
             <p>
-              <i class="fas fa-phone me-3"></i> Service: + 91 93802 43402
+              <i class="fas fa-phone me-3"></i> Service: + 91 93825 43299
             </p>
           </div>
         </div>

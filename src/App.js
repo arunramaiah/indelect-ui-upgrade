@@ -15,7 +15,7 @@ import Pixxgen from "./components/Pixxgen";
 import SocialMedia from "./components/SocialMedia";
 import Construction from "./components/Construction";
 import Gelpad from "./components/Gelpad";
-import { FaPhoneAlt, MdOutlineMail } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 
 
 function App() {
@@ -61,15 +61,21 @@ function App() {
           <span class="space-around">
             <FaPhoneAlt />
           </span>
-          <span class="space-around">Sales</span>
+          <span class="contact-title">Sales</span>
           <span> + 91 93802 43402</span>
           </div>
           <div>
           <span class="space-around">
             <FaPhoneAlt />
           </span>
-          <span>Service</span>
+          <span class="contact-title">Service</span>
           <span> + 91 93825 43299</span>
+        </div>
+        <div>
+          <span class="space-around">
+            <img src="..\..\assets\logos\letter.png" alt="Email" width="30px" height="30px" />
+          </span>
+          <span>salesindelect@gmail.com</span>
         </div>
         </div> 
       </div>
