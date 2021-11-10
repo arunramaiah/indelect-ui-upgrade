@@ -9,7 +9,7 @@ const Gelpad = () => {
         {processedImages.map((item, index) => {
           return (
             <React.Fragment key={index}>
-              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+              <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 shadow">
                 <figure>
                   <img
                     src={processedImages[index].location}

@@ -17,7 +17,6 @@ import Construction from "./components/Construction";
 import Gelpad from "./components/Gelpad";
 import { FaPhoneAlt } from "react-icons/fa";
 
-
 function App() {
   return (
     <Router>
@@ -58,26 +57,34 @@ function App() {
         </div>
         <div class="header-contact">
           <div>
-          <span class="space-around">
-            <FaPhoneAlt />
-          </span>
-          <span class="contact-title">Sales</span>
-          <span> + 91 93802 43402</span>
+            <span class="space-around">
+              <FaPhoneAlt />
+            </span>
+            <span class="contact-title">Sales</span>
+            <span> + 91 93802 43402</span>
           </div>
           <div>
-          <span class="space-around">
-            <FaPhoneAlt />
-          </span>
-          <span class="contact-title">Service</span>
-          <span> + 91 93825 43299</span>
+            <span class="space-around">
+              <FaPhoneAlt />
+            </span>
+            <span class="contact-title">Service</span>
+            <span> + 91 93825 43299</span>
+          </div>
+          <div>
+            <span class="space-around">
+              <img
+                src="..\..\assets\logos\letter.png"
+                alt="Email"
+                width="30px"
+                height="30px"
+              />
+            </span>
+            <span>salesindelect@gmail.com</span>
+          </div>
+          <div>
+              <SocialMedia />
+          </div>
         </div>
-        <div>
-          <span class="space-around">
-            <img src="..\..\assets\logos\letter.png" alt="Email" width="30px" height="30px" />
-          </span>
-          <span>salesindelect@gmail.com</span>
-        </div>
-        </div> 
       </div>
       <hr />
       <Switch>
@@ -113,8 +120,11 @@ function App() {
         </Route>
       </Switch>
       <hr />
-      <footer class="page-footer">
-        <SocialMedia />
+      <footer class="text-center text-lg-start bg-white text-muted">
+      <div class="text-center p-4">
+         © 2021 
+        <a class="text-reset fw-bold" href="www.in"> www.indelect.com</a>
+        </div>
       </footer>
     </Router>
   );

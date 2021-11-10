@@ -272,7 +272,7 @@ hr  {
   font-weight: 800;
   font: bold;
   font-style: italic;
-  font-size: x-large;
+  font-size: large;
   margin: 1vh;
   padding: 1vh;
   color: darkblue;
@@ -282,9 +282,13 @@ hr  {
 }
 
 .space-around {
-  margin: 1vh;
+  margin: 0.5vh;
 }
 
 .contact-title {
   margin: 1vh;
+}
+
+.shadow {
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
 }

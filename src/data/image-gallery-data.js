@@ -245,285 +245,145 @@ const images = [
     },
     { 
         id: 39,
-        location: "../../assets/genuine/portable-30-kw-x-ray-machines-500x500-removebg-preview.png",
-        title: "Mobile X-Ray",
-        category: "X-Ray",
-        manufacturer: "Genuine"
+        location: "../../assets/gel-pads/Coccydynia with Gel top.jpg",
+        manufacturer: "Gel Pad"
     },
     { 
         id: 40,
-        location: "../../assets/gel-pads/1.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/Crutch Gel Pads.jpg",
         manufacturer: "Gel Pad"
     },
     { 
         id: 41,
-        location: "../../assets/gel-pads/2.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/Dome Positioner Prime.jpg",
         manufacturer: "Gel Pad"
     },
+    
     { 
         id: 42,
-        location: "../../assets/gel-pads/3.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/Flat Gel 35 with centre Pocket.jpg",
         manufacturer: "Gel Pad"
     },
+    
     { 
         id: 43,
-        location: "../../assets/gel-pads/4.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/Flat Gel Pad 15 _ 35.jpg",
         manufacturer: "Gel Pad"
     },
     { 
         id: 44,
-        location: "../../assets/gel-pads/5.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/Flat Prone Gel Bed.jpg",
         manufacturer: "Gel Pad"
     },
     { 
         id: 45,
-        location: "../../assets/gel-pads/6.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/Gel Cushion.jpg",
         manufacturer: "Gel Pad"
     },
     { 
         id: 46,
-        location: "../../assets/gel-pads/7.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/Head Base Gel pad.jpg",
         manufacturer: "Gel Pad"
     },
+    
     { 
         id: 47,
-        location: "../../assets/gel-pads/8.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/Heel Pad.jpg",
         manufacturer: "Gel Pad"
     },
+    
     { 
         id: 48,
-        location: "../../assets/gel-pads/9.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/Knee-Arm rest.jpg",
         manufacturer: "Gel Pad"
     },
     { 
         id: 49,
-        location: "../../assets/gel-pads/10.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/Lateral Gel Position Bed.jpg",
         manufacturer: "Gel Pad"
     },
     { 
         id: 50,
-        location: "../../assets/gel-pads/11.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/Lateral Leg foam with gel top.jpg",
         manufacturer: "Gel Pad"
     },
     { 
         id: 51,
-        location: "../../assets/gel-pads/12.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/Lateral wedge Position.jpg",
         manufacturer: "Gel Pad"
     },
     { 
         id: 52,
-        location: "../../assets/gel-pads/13.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/Neonatal Haed Cradle.jpg",
         manufacturer: "Gel Pad"
     },
     { 
         id: 53,
-        location: "../../assets/gel-pads/14.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/Neonatal Phototherapy Gel Pad.jpg",
         manufacturer: "Gel Pad"
     },
     { 
         id: 54,
-        location: "../../assets/gel-pads/15.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/Neonatal Roll.jpg",
         manufacturer: "Gel Pad"
     },
     { 
         id: 55,
-        location: "../../assets/gel-pads/16.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/OT table Gel Pad Full.jpg",
         manufacturer: "Gel Pad"
     },
     { 
         id: 56,
-        location: "../../assets/gel-pads/17.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/OT table Gel Pad.jpg",
         manufacturer: "Gel Pad"
     },
     { 
         id: 57,
-        location: "../../assets/gel-pads/18.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/Pediotric Roll.jpg",
         manufacturer: "Gel Pad"
     },
     { 
         id: 58,
-        location: "../../assets/gel-pads/19.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/Prone head rest gel.jpg",
         manufacturer: "Gel Pad"
     },
     { 
         id: 59,
-        location: "../../assets/gel-pads/20.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/Prone position Gel Bed.jpg",
         manufacturer: "Gel Pad"
     },
     { 
         id: 60,
-        location: "../../assets/gel-pads/21.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/Sacral Pad.jpg",
         manufacturer: "Gel Pad"
     },
     { 
         id: 61,
-        location: "../../assets/gel-pads/22.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/Supine Head Rest.jpg",
         manufacturer: "Gel Pad"
     },
     { 
         id: 62,
-        location: "../../assets/gel-pads/23.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/Ulnar protector.jpg",
         manufacturer: "Gel Pad"
     },
     { 
         id: 63,
-        location: "../../assets/gel-pads/24.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/Universal Gel Pillows.jpg",
         manufacturer: "Gel Pad"
     },
     { 
         id: 64,
-        location: "../../assets/gel-pads/25.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/Universal Pad.jpg",
         manufacturer: "Gel Pad"
     },
     { 
         id: 65,
-        location: "../../assets/gel-pads/26.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
+        location: "../../assets/gel-pads/WC seat Cover.jpg",
         manufacturer: "Gel Pad"
     },
-    { 
-        id: 66,
-        location: "../../assets/gel-pads/27.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
-        manufacturer: "Gel Pad"
-    },
-    { 
-        id: 67,
-        location: "../../assets/gel-pads/28.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
-        manufacturer: "Gel Pad"
-    },
-    { 
-        id: 68,
-        location: "../../assets/gel-pads/29.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
-        manufacturer: "Gel Pad"
-    },
-    { 
-        id: 69,
-        location: "../../assets/gel-pads/30.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
-        manufacturer: "Gel Pad"
-    },
-    { 
-        id: 70,
-        location: "../../assets/gel-pads/31.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
-        manufacturer: "Gel Pad"
-    },
-    { 
-        id: 71,
-        location: "../../assets/gel-pads/32.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
-        manufacturer: "Gel Pad"
-    },
-    { 
-        id: 72,
-        location: "../../assets/gel-pads/33.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
-        manufacturer: "Gel Pad"
-    },
-    { 
-        id: 73,
-        location: "../../assets/gel-pads/34.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
-        manufacturer: "Gel Pad"
-    },
-    { 
-        id: 74,
-        location: "../../assets/gel-pads/35.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
-        manufacturer: "Gel Pad"
-    },
-    { 
-        id: 75,
-        location: "../../assets/gel-pads/36.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
-        manufacturer: "Gel Pad"
-    },
-    { 
-        id: 76,
-        location: "../../assets/gel-pads/37.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
-        manufacturer: "Gel Pad"
-    },
-    { 
-        id: 77,
-        location: "../../assets/gel-pads/38.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
-        manufacturer: "Gel Pad"
-    },
-    { 
-        id: 78,
-        location: "../../assets/gel-pads/39.jpeg",
-        title: "Gel Pad",
-        category: "Gel Pad",
-        manufacturer: "Gel Pad"
-    },
-   
+    
+    
 ];
 
 export default images;
