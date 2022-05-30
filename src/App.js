@@ -1,6 +1,6 @@
 //import logo from './logo.svg';
 import "./App.css";
-import React from "react";
+import React, { useState } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import Home from "./components/Home";
@@ -15,9 +15,19 @@ import Pixxgen from "./components/Pixxgen";
 import SocialMedia from "./components/SocialMedia";
 import Construction from "./components/Construction";
 import Gelpad from "./components/Gelpad";
+import TestPage from "./components/TestPage";
+import Dashboard from "./components/Dashboard/Dashboard";
+import Preferences from "./components/Preferences/Preferences";
+import Login from "./components/Login";
 import { FaPhoneAlt } from "react-icons/fa";
 
 function App() {
+  const [token, setToken] = useState();
+
+  if(!token) {
+    return <Login setToken={setToken} />
+  }
+
   return (
     <Router>
       <div className="App">
@@ -50,6 +60,9 @@ function App() {
                 <Nav.Link href="/services">Services</Nav.Link>
                 <Nav.Link href="/customers">Customers</Nav.Link>
                 <Nav.Link href="/location">Location</Nav.Link>
+                <Nav.Link href="/testpage">TestPage</Nav.Link>
+                <Nav.Link href="/dashboard">Dashboard</Nav.Link>
+                <Nav.Link href="/preferences">Preferences</Nav.Link>
                 <Nav.Link href="/about">About</Nav.Link>
               </Nav>
             </Navbar.Collapse>
@@ -111,6 +124,18 @@ function App() {
         </Route>
         <Route path="/location">
           <Location />
+        </Route>
+        <Route path="/login">
+          <Login />
+        </Route>
+        <Route path="/dashboard">
+          <Dashboard />
+        </Route>
+        <Route path="/preferences">
+          <Preferences />
+        </Route>
+        <Route path="/testpage">
+          <TestPage />
         </Route>
         <Route path="/about">
           <About />
