@@ -1,5 +1,7 @@
 import { React } from "react";
 import data from "../data/about-data.js";
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
 
 const About = () => {
   console.log(data);
@@ -20,7 +22,7 @@ const About = () => {
         grounded to diverse activities.
       </p>
       <p class="sub-heading">Indelect's Journey </p>
-      <table class="table table-striped">
+      {/* <table class="table table-striped">
         <thead>
           <tr>
             <th scope="col">Year</th>
@@ -37,7 +39,27 @@ const About = () => {
             );
           })}
         </tbody>
-      </table>
+      </table> */}
+      {data.map((item, index) => {
+        return (
+          <div>
+            <VerticalTimeline>
+              <VerticalTimelineElement
+                className="vertical-timeline-element--work"
+                date={item.year}
+                iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+              >
+                <h3 className="vertical-timeline-element-title"></h3>
+                <h4 className="vertical-timeline-element-subtitle"></h4>
+                <p>
+                  {item.description}
+                </p>
+              </VerticalTimelineElement>
+            </VerticalTimeline>
+          </div>
+        )
+      })}
+
     </div>
   );
 };
