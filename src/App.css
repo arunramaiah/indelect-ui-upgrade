@@ -181,9 +181,8 @@ html, body {
 }
 
 .customer-list {
-  margin: 2vh;
-  font-size: x-large;
-  align-items: baseline;
+  margin-left: 1vh;
+  font-size: large;
 }
 
 .hospital-icon {
