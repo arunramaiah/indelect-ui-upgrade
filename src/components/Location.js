@@ -21,7 +21,7 @@ const Location = () => {
         </div>
         {/* <Enquiry /> */}
         <div>
-          <div>
+          <div className="contact-details">
             <h6 class="google-maps-heading">Contact</h6>
             <p><i class="fas fa-home me-3"></i>#15/53, 1st Floor, Thirunagar, Villivakkam, Chennai - 600 095 </p>
             <p>
